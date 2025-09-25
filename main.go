@@ -41,6 +41,7 @@ func main() {
 
 	clientConfig := torrent.NewDefaultClientConfig()
 	clientConfig.DataDir = dir
+	clientConfig.Seed = false
 	client, err := torrent.NewClient(clientConfig)
 
 	if err != nil {
@@ -118,7 +119,7 @@ func main() {
 	}()
 
 	t.DownloadAll()
-	<-t.Closed()
+	client.WaitAll()
 
 	progressBar.Finish()
 

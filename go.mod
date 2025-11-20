@@ -1,6 +1,6 @@
 module github.com/AegirLeet/rg-downloader
 
-go 1.24
+go 1.24.0
 
 require (
 	github.com/anacrolix/torrent v1.58.1
@@ -85,11 +85,11 @@ require (
 	go.opentelemetry.io/otel v1.35.0 // indirect
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
-	golang.org/x/crypto v0.37.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
-	golang.org/x/net v0.39.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/sync v0.13.0 // indirect
-	golang.org/x/sys v0.32.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/time v0.11.0 // indirect
 	lukechampine.com/blake3 v1.4.0 // indirect
 	modernc.org/libc v1.63.0 // indirect

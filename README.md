@@ -13,9 +13,9 @@ Wait for the download to finish.
 
 ### Prerequisites
 
-* Go 1.24
-* `make`
+* Go 1.26.4+
 * GTK 3 dev packages (`libgtk-3-dev` or similar)
+* `make`
 
 ### Build
 

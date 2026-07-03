@@ -1,6 +1,6 @@
 module github.com/AegirLeet/rg-downloader
 
-go 1.25.0
+go 1.26.4
 
 require (
 	github.com/anacrolix/torrent v1.58.1
